@@ -88,7 +88,9 @@
         android:hint="Enter Batch"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_margin="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
         android:id="@+id/actvBatch"
         />
 
@@ -100,27 +102,57 @@
         android:backgroundTint="@android:color/holo_green_light"
         android:layout_marginLeft="120dp"
         android:layout_marginRight="120dp"
-        android:layout_marginTop="80dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:id="@+id/btnSave"
 
         />
+       <!-- android:layout_marginTop="40dp"-->
+
 
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:id="@+id/tvOutput"
-        android:hint="Output"
-        android:layout_margin="30dp"
-        android:textAlignment="center"
+        android:text="STUDENT DETAILS"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
 
         />
 
 
+    <!--Output of student details after clicking on the button 'SAVE'-->
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp"
+        android:id="@+id/tvName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/tvGender"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/tvCountry"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/tvBatch"
+        android:textSize="20dp"
+        />
 
 
 </LinearLayout>
