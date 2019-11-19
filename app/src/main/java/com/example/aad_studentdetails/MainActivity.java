@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-                Toast.makeText(MainActivity.this, spinCountry.getSelectedItem().toString(),Toast.LENGTH_SHORT).show();
+               // Toast.makeText(MainActivity.this, spinCountry.getSelectedItem().toString(),Toast.LENGTH_SHORT).show();
             }
 
             @Override
