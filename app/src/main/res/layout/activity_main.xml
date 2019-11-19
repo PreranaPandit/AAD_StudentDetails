@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+       android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Your Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Select Gender"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/rdoGroup"
+        >
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Male"
+            android:id="@+id/rdobtnMale"
+            />
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Female"
+            android:id="@+id/rdobtnFemale"
+            />
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Others"
+            android:id="@+id/rdobtnOthers"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:hint="Select your country"
+        android:textStyle="bold"
+
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/spinCountry"
+
+        />
+
+    <AutoCompleteTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Batch"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:id="@+id/actvBatch"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Save"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/btnSave"
+
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Output"
+        android:layout_margin="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+
+</LinearLayout>
